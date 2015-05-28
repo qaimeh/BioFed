@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix granatum: <http://chem.deri.ie/granatum/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void-ext: <http://rdfs.org/ns/void-ext#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix bio2rdf: <http://bio2rdf.org/ns/bio2rdf#> .
+@prefix mrm: <http://mappings.roadmap.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+
+<http://cu.pharmgkb.bio2rdf.org/sparql>
+      a       void:Dataset ;
+      void:class <http://bio2rdf.org/dataset_vocabulary:Namespace_Namespace_Count> , <http://bio2rdf.org/pharmgkb_vocabulary:Association> , <http://bio2rdf.org/dataset_vocabulary:Endpoint> , <http://bio2rdf.org/pharmgkb_vocabulary:Drug> , <http://bio2rdf.org/pharmgkb_vocabulary:Side-Effect> , <http://bio2rdf.org/pharmgkb_vocabulary:Chemical> , <http://bio2rdf.org/pharmgkb_vocabulary:Drug-Gene-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Gene> , <http://bio2rdf.org/pharmgkb_vocabulary:Disease> , <http://bio2rdf.org/pharmgkb_vocabulary:Pathway> , void:Dataset , <http://bio2rdf.org/pharmgkb_vocabulary:Event> , <http://bio2rdf.org/pharmgkb_vocabulary:Variant> , <http://bio2rdf.org/pharmgkb_vocabulary:Drug-Haplotype-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Disease-VariantLocation-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Gene-Gene-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Disease-Gene-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Drug-Drug-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Drug-VariantLocation-Association> , <http://bio2rdf.org/pharmgkb_vocabulary:Disease-Haplotype-Association> ;
+      void:sparqlEndpoint <http://cu.pharmgkb.bio2rdf.org/sparql> .
